@@ -111,13 +111,13 @@ if (isset($_POST['email']) and isset($_POST['password'])){
                         </div>
                         <form action="registerscript.php" name="registration" method="post">
                            <div class="form-group">
-                              <label for="exampleInputEmail1">First Name</label>
-                              <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                              <label for="exampleInputEmail1">Full Name</label>
+                              <input type="text"  name="name" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Fullname">
                            </div>
-                           <div class="form-group">
+                           <!--<div class="form-group">
                               <label for="exampleInputEmail1">Last Name</label>
                               <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
-                           </div>
+                           </div>-->
                            <div class="form-group">
                               <label for="exampleInputEmail1">Email address</label>
                               <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
