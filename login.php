@@ -68,7 +68,7 @@ if (isset($_POST['email']) and isset($_POST['password'])){
 							<h1>Login</h1>
 						 </div>
 					</div>
-                   <form action="" method="post" name="login">
+                   <form action="login.php" method="post" name="login">
                        <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
                           <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
@@ -109,7 +109,7 @@ if (isset($_POST['email']) and isset($_POST['password'])){
                               <h1 >Signup</h1>
                            </div>
                         </div>
-                        <form action="#" name="registration">
+                        <form action="registerscript.php" name="registration" method="post">
                            <div class="form-group">
                               <label for="exampleInputEmail1">First Name</label>
                               <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
